@@ -54,3 +54,6 @@ c = [1, 2, 3]
 print(a is b)      # True 
 print(a is c)      # False 
 print(a is not c)  # True
+print(id(a))
+print(id(b))
+print(id(c))
